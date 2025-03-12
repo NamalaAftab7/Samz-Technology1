@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    background: #333;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FF8C00;
+}
+
+h1 {
+    padding: 10px 0;
+    color: #444;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #FF8C00;
+    color: #fff;
+}
+
+form input,
+form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background: #FF8C00;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background: #e07b00;
+}
+
+video, audio {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#about, #projects, #skills, #contact {
+    padding-top: 20px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background: #333;
+    z-index: 1000;
+}
